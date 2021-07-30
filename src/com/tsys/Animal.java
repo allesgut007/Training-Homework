@@ -2,17 +2,40 @@ package com.tsys;
 
 public class Animal {
 	
-	String xyz;
-	
-	 public Animal() {
-			System.out.println("Hey I am in a Animal Constructor, default is gone!!");
-		}
-	
-	String color;
+	String Colour;
 	int size;
+	
+	// start of constructor
+	public Animal()
+	{
 		
+	this.Colour = "Red";
+	this.size = 99;
+	
+	}
+	
+	// paramter constructor
+	
+public Animal(String clr , int siz)
+	
+	{
+		
+	this.Colour = clr;
+	this.size = siz;
+	
+	}
+
+public Animal(int siz, String clr )
+
+{
+	
+this.Colour = clr;
+this.size = siz;
+
+}
 	public void sleep() {
 		System.out.println("Lets sleep");
+		
 	}
 	
 	public int eat(String item) {

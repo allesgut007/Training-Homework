@@ -2,8 +2,10 @@ package com.tsys;
 
 public class MethodParams {
 	
-	 int xyz = 23;
-
+	 // int xyz = 23;
+// Why didnt we use "This" keyword?
+// why do we have xyz = 23 w/o any use?
+// Line 21 - int means it should be a number, why string c is given?
 	public static void main(String[] args) {
 		
 		System.out.println("Hello Bindu..");
