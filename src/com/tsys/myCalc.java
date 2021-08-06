@@ -2,6 +2,8 @@ package com.tsys;
 
 public class myCalc {
 	
+	// test variables
+	
 	int add1, add2;
 	double mul1,mul2;
 	int sub1,sub2;
