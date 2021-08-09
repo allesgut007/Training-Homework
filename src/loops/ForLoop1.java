@@ -1,6 +1,7 @@
-package com.tsys;
+package loops;
 
-public class ForLoop {
+
+public class ForLoop1 {
 
 	public static void main(String[] args) {
 		

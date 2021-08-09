@@ -1,4 +1,5 @@
-package com.tsys;
+package controls;
+
 
 public class SwitchCase {
 
